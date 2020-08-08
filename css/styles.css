@@ -1,0 +1,63 @@
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  padding: 10px;
+  height: auto;
+  border-bottom: 2px;
+}
+.navbar-brand { /* Restaurant name */
+  font-family: inherit;
+  font-size: 4em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  vertical-align: baseline;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+}
+.navbar-brand a {
+  color: black !important;
+}
+#collapsable-nav {
+  margin: 0;
+}
+#nav-list > li > a {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2em;
+  overflow: none !important;
+  width: 100%
+
+}
+#nav-list a:hover, #nav-list a:focus {
+	border: 2px solid black;
+	
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+}
+#menu-tile {
+  background-color: #fce5b0;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+hr {
+	color: black;
+}
+@media (max-width: 767px) {
+	#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  .navbar-brand {
+  	font-size: 3em;
+  }
+}
